@@ -1,10 +1,10 @@
 import 'package:uuid/uuid.dart';
 
-class GetNotesRequestDto {
+class GetNotesResponseDto {
   final List<NoteDto> data;
   final int totalCount;
 
-  GetNotesRequestDto({required this.data, required this.totalCount});
+  GetNotesResponseDto({required this.data, required this.totalCount});
 }
 
 class NoteDto {
